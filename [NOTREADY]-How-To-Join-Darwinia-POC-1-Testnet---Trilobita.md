@@ -169,7 +169,7 @@ wss://trilobita.darwinia.network/
 
 ```bash
 ./darwinia \
---base-path /tmp/xxx\
+--base-path /tmp/xxx \
 --key 0x65cb3095a5da6be85e21a4a6a617e2f18fd0518a4e167614bc0c9bb9b3af2647 \
 --validator \
 --bootnodes /ip4/121.199.60.87/tcp/20222/p2p/QmcqezCQijVrH6ipNvooEdfTG5HYSmfquxZ8n1iASoe6kL \
