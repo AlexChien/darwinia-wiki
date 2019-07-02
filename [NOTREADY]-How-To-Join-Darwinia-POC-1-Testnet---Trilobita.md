@@ -4,6 +4,10 @@
 
 > darwinia钱包预计在POC-2之前推出，先用官方网页https://polkadot.js.org/apps
 
+### TIPS
+
+在官方网页中遇到**Submit Transaction**无法点击的情况，可以切换左侧的toolbar的tab，就OK了。
+
 ## 1. 使用操作界面
 
 打开https://polkadot.js.org/apps/#/settings，  x掉最上方的粉红色报警，看到如下界面：
@@ -145,7 +149,7 @@ wss://trilobita.darwinia.network/
 
 - grandpaKey: 选择刚生成的sessionkey地址
 - aurakey: 选择刚生成的sessionkey地址
-- proof: 不填
+- proof: 保持不变（不用自己填写）
 
 ![image-20190702141225014](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-065727.jpg)
 
@@ -159,14 +163,18 @@ wss://trilobita.darwinia.network/
 
 下载可执行二进制文件，在该文件同级目录下执行如下命令：
 
+可执行文件下载地址：https://github.com/darwinia-network/darwinia/releases/tag/v0.2
+
+目前支持linux/mac/docker
+
 ```bash
 ./darwinia \
 --base-path /tmp/xxx\
 --key 0x65cb3095a5da6be85e21a4a6a617e2f18fd0518a4e167614bc0c9bb9b3af2647 \
 --validator \
---bootnodes /ip4/<OTHER IP Address>/tcp/<OTHER Port>/p2p/<OTHER Node ID> \
+--bootnodes /ip4/121.199.60.87/tcp/20222/p2p/QmcqezCQijVrH6ipNvooEdfTG5HYSmfquxZ8n1iASoe6kL \
 --port 20222 \
---name AliceDarwiniaNode \
+--name YourLovelyName \
 --rpc-external \
 --ws-external 
 ```
@@ -181,7 +189,7 @@ validator： 成为验证人
 name： 在telemetry中显示的名字，随便写一个
 rpc-external： 暴露rpc端口 (可以不填)
 ws-external： 暴露ws端口(可以不填)
-bootnodes: 连接的节点
+bootnodes: 连接的节点(/ip4/121.199.60.87/tcp/20222/p2p/QmcqezCQijVrH6ipNvooEdfTG5HYSmfquxZ8n1iASoe6kL)
 ```
 
 启动成功后控制台打印日志如下：
