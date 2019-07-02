@@ -6,7 +6,8 @@
 
 ## 1. 使用操作界面
 
-打开https://polkadot.js.org/apps/#/settings，x掉最上方的粉红色报警，看到如下界面：
+打开https://polkadot.js.org/apps/#/settings，
+x掉最上方的粉红色报警，看到如下界面：
 
 ![image-20190702104942567](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-65721.jpg)
 
