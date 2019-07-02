@@ -6,8 +6,7 @@
 
 ## 1. 使用操作界面
 
-打开https://polkadot.js.org/apps/#/settings，
-x掉最上方的粉红色报警，看到如下界面：
+打开https://polkadot.js.org/apps/#/settings，x掉最上方的粉红色报警，看到如下界面：
 
 ![image-20190702104942567](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-65721.jpg)
 
@@ -36,10 +35,10 @@ x掉最上方的粉红色报警，看到如下界面：
 再回到**General**界面，打开右上角的**custom endpoint**开关，然后在**remote node/endpoint to connect to** 填入：
 
 ```html
-
+wss://trilobita.darwinia.network/
 ```
 
-输入完成后点击下方最右侧蓝色button **Save&Reload**。这时页面就会自动刷新到可用界面，如下：
+输入完成后点击下方最右侧蓝色button **Save&Reload**。这时页面就会自动刷新到可用界面。选择左侧的**Explorer**可看到如下：
 
 ![image-20190702130305863](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-065736.jpg)
 
@@ -157,7 +156,6 @@ x掉最上方的粉红色报警，看到如下界面：
 ```bash
 ./darwinia \
 --base-path /tmp/xxx\
---base-path /tmp/alice \
 --key 0x65cb3095a5da6be85e21a4a6a617e2f18fd0518a4e167614bc0c9bb9b3af2647 \
 --validator \
 --bootnodes /ip4/<OTHER IP Address>/tcp/<OTHER Port>/p2p/<OTHER Node ID> \
@@ -310,7 +308,7 @@ bootnodes: 连接的节点
 
 ## 写在最后
 
-达尔文是波卡生态中第一条游戏平行链，关于通证经济设计也有一些有趣的思考。目前的POC-1 Tribolita Testnet只是初期最小化的可用版本。如果大家对我们感兴趣，可以在https://github.com/darwinia-network/rfcs 中提issue，也欢迎fork给我们提交PR，共同讨论达尔文网络的未来。
+达尔文是波卡生态中第一条游戏平行链，关于通证经济设计也有一些有趣的思考。目前的POC-1 Trilobita Testnet只是初期最小化的可用版本。如果大家对我们感兴趣，可以在https://github.com/darwinia-network/rfcs中提issue，也欢迎fork给我们提交PR，共同讨论达尔文网络的未来。
 
 
 
