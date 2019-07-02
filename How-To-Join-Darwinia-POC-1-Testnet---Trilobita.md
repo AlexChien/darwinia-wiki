@@ -1,8 +1,5 @@
 # How To Join Darwinia POC-1 Testnet - Trilobita
 
-[TOC]
-
-
 
 > darwinia钱包预计在POC-2之前推出，先用官方网页https://polkadot.js.org/apps
 >
