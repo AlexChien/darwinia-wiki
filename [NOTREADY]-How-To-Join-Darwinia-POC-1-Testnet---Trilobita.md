@@ -310,7 +310,7 @@ bootnodes: 连接的节点
 
 ## 写在最后
 
-达尔文是波卡生态中第一条游戏平行链，关于通证经济设计也有一些有趣的思考。目前的POC-1 Tribolita Testnet只是初期最小化的可用版本。如果大家对我们感兴趣，可以在https://github.com/darwinia-network/rfcs中提issue，也欢迎fork给我们提交PR，共同讨论达尔文网络的未来。
+达尔文是波卡生态中第一条游戏平行链，关于通证经济设计也有一些有趣的思考。目前的POC-1 Tribolita Testnet只是初期最小化的可用版本。如果大家对我们感兴趣，可以在https://github.com/darwinia-network/rfcs 中提issue，也欢迎fork给我们提交PR，共同讨论达尔文网络的未来。
 
 
 
