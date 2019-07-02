@@ -224,6 +224,8 @@ bootnodes: 连接的节点(/ip4/121.199.60.87/tcp/20222/p2p/QmcqezCQijVrH6ipNvoo
 
 此时节点仅仅是同步节点。
 
+启动之后可以在telemetry中找到自己的节点名： https://telemetry.polkadot.io/#list/Darwinia%20POC-1%20Testnet
+
 ### 4-4 申请成为验证人
 
 先打开**Staking**页面，查看当前的验证人情况：
