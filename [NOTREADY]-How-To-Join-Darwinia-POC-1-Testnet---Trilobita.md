@@ -6,8 +6,7 @@
 
 ## 1. 使用操作界面
 
-打开https://polkadot.js.org/apps/#/settings，
-x掉最上方的粉红色报警，看到如下界面：
+打开https://polkadot.js.org/apps/#/settings，  x掉最上方的粉红色报警，看到如下界面：
 
 ![image-20190702104942567](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-65721.jpg)
 
@@ -102,7 +101,7 @@ wss://trilobita.darwinia.network/
 
 **Extrinsics -> staking -> bond**, 依旧使用tribolita_stash账户操作，
 
-- controller：填入我们之前生成的tribolita账户（如果嫌麻烦的同学，也可以填入和操作账户一样的地址）；
+- controller：选择我们之前生成的tribolita账户（如果嫌麻烦的同学，也可以填入和操作账户一样的地址）；
 - value：想用于staking的KTON的数额
 - payee：目前只支持Stash (奖励金额打到操作账户)和Controller（奖励金额打到controller填入的账户）
 
@@ -110,7 +109,7 @@ wss://trilobita.darwinia.network/
 
 
 
-点击确认之后，继续去**Chainstate**查看状态。**Chain state -> staking -> bonded**，填入上一步的操作账户（tribolita_stash），如果成功的话就会出现刚才填入的controller账户，失败的话就会显示<empty>.
+点击确认之后，继续去**Chainstate**查看状态。**Chain state -> staking -> bonded**，选择上一步的操作账户（tribolita_stash），如果成功的话就会出现刚才填入的controller账户，失败的话就会显示<empty>.
 
 ![image-20190702133943126](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-65726.jpg)
 
@@ -138,8 +137,8 @@ wss://trilobita.darwinia.network/
 
 在**extrinsics -> session -> setKeys**界面，输入如下参数（注意！：这里的操作人是tribolita，即之前bond时填入的controller）：
 
-- grandpaKey: 填入刚生成的sessionkey地址
-- aurakey: 填入刚生成的sessionkey地址
+- grandpaKey: 选择刚生成的sessionkey地址
+- aurakey: 选择刚生成的sessionkey地址
 - proof: 不填
 
 ![image-20190702141225014](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-065727.jpg)
