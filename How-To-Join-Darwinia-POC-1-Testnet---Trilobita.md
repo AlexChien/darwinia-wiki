@@ -197,7 +197,7 @@ docker pull darwinianetwork/darwinia:v0.2
 
 ```bash
 base-path: 保存链数据的地址
-key: sessionkey 
+key: sessionkey 账号的secret hex，也就是它的私钥，节点需要用它来签块；注意，不是该账号的public key，不要写错
 port: p2p端口
 validator： 成为验证人
 name： 在telemetry中显示的名字，随便写一个
