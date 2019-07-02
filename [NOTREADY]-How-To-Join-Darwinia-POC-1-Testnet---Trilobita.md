@@ -1,4 +1,4 @@
-# How To Join Darwinia POC-1 Testnet - Tribolita
+# How To Join Darwinia POC-1 Testnet - TriLoBita
 
 
 
@@ -52,7 +52,7 @@
 
 点击左侧toolbar中的**Accounts**可以看到如下界面，点击右上角**Add account**：
 
-![image-20190702130603522](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-065720.jpg)
+![image-20190702152807024](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-072844.jpg)
 
 在如下界面中填写新账户相关信息：
 
