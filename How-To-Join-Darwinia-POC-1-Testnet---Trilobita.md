@@ -1,9 +1,12 @@
 # How To Join Darwinia POC-1 Testnet - Trilobita
 
 
+
+
+
 > darwinia钱包预计在POC-2之前推出，先用官方网页https://polkadot.js.org/apps
 >
-> 普通用户可以跳过第4章，推荐关注倒数第二章：有趣的事情
+> 普通用户可以跳过第4章节，推荐关注倒数第二章：有趣的事情
 
 ### TIPS
 
@@ -164,9 +167,19 @@ wss://trilobita.darwinia.network/
 
 下载可执行二进制文件，在该文件同级目录下执行如下命令：
 
+目前支持linux/mac/docker
+
+mac/linux:
+
 可执行文件下载地址：https://github.com/darwinia-network/darwinia/releases/tag/v0.2
 
-目前支持linux/mac/docker
+docker image:
+
+```
+docker pull darwinianetwork/darwinia:v0.2
+```
+
+
 
 ```bash
 ./darwinia \
