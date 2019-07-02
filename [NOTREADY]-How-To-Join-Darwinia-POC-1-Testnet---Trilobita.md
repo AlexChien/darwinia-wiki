@@ -1,4 +1,4 @@
-# How To Join Darwinia POC-1 Testnet - TriLoBita
+# How To Join Darwinia POC-1 Testnet - Trilobita
 
 
 
