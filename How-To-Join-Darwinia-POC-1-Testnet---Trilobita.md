@@ -42,7 +42,7 @@
 wss://trilobita.darwinia.network/
 ```
 
-输入完成后点击下方最右侧蓝色button **Save&Reload**。这时页面就会自动刷新到可用界面。选择左侧的**Explorer**可看到如下：
+输入完成后点击下方最右侧蓝色button **Save&Reload**。稍等一会儿，这时页面就会自动刷新到可用界面。选择左侧的**Explorer**可看到如下：
 
 ![image-20190702130305863](https://hammerwang-1255810360.cos.ap-chengdu.myqcloud.com/2019-07-02-065736.jpg)
 
